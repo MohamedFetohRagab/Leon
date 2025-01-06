@@ -383,4 +383,7 @@ footer span {
   .special-heading {
     font-size: 60px;
   }
+  .special-heading + p {
+    margin-top: -18px;
+  }
 }
