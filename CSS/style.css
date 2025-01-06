@@ -174,7 +174,7 @@ html {
   font-size: 100px;
   text-align: center;
   font-weight: 800;
-  letter-spacing: -1px;
+  letter-spacing: -3px;
   margin: 0;
 }
 .special-heading + p {
@@ -369,7 +369,7 @@ html {
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info p + a {
-    font-size: 18px;
+    font-size: 15px;
   }
 }
 footer {
