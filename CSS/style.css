@@ -19,11 +19,6 @@ html {
     width: 700px;
   }
 }
-@media (max-width: 767px) {
-  .special-heading {
-    font-size: 50px;
-  }
-}
 @media (min-width: 992x) {
   .container {
     width: 970px;
@@ -39,7 +34,6 @@ html {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  overflow: hidden;
 }
 .header {
   background-color: #eee;
@@ -384,4 +378,9 @@ footer span {
   padding: 10px;
   font-size: 30px;
   font-weight: bold;
+}
+@media (max-width: 767px) {
+  .special-heading {
+    font-size: 60px;
+  }
 }
