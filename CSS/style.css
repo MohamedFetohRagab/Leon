@@ -132,9 +132,10 @@ html {
   font-size: 50px;
   color: var(--main-color);
 }
-.landing .text-intro p {
-  font-size: 19px;
+.landing .intro-text p {
+  font-size: 20px;
   line-height: 1.8;
+  font-weight: bold;
 }
 .features {
   padding-top: 60px;
@@ -217,11 +218,11 @@ html {
   text-align: center;
   position: relative;
 }
-@media (max-width: 1199px) {
+/* @media (max-width: 1199px) {
   .services .services-content .image {
     display: none;
   }
-}
+} */
 .services .services-content .image::before {
   content: "";
   position: absolute;
@@ -322,6 +323,9 @@ html {
 }
 .about-content .text p:last-of-type {
   color: var(--p-color);
+}
+.about-content .text hr {
+  font-size: 30px;
 }
 .about-content .text hr {
   width: 50%;
