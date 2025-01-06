@@ -1,7 +1,7 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-html{
+html {
   scroll-behavior: smooth;
 }
 * {
@@ -16,7 +16,7 @@ html{
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 700px;
   }
 }
 @media (max-width: 767px) {
@@ -39,6 +39,7 @@ html{
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  /* overflow: hidden; */
 }
 .header {
   background-color: #eee;
@@ -106,7 +107,6 @@ html{
   padding: 10px;
   text-align: center;
   font-weight: bold;
-  
 }
 .links ul li a {
   text-decoration: none;
@@ -139,7 +139,7 @@ html{
   color: var(--main-color);
 }
 .landing .text-intro p {
-  font-size: 20px;
+  font-size: 19px;
   line-height: 1.8;
 }
 .features {
@@ -311,6 +311,12 @@ html{
   border-bottom: 80px solid #b0cdcb;
   border-left: 80px solid #b0cdcb;
 }
+@media (max-width: 991px) {
+  .about .about-content .image::before,
+  .about .about-content .image::after {
+    display: none;
+  }
+}
 .about-content .text {
   flex-basis: calc(100% - 400px);
   text-align: center;
@@ -363,7 +369,7 @@ html{
 @media (max-width: 767px) {
   .contact .info .label,
   .contact .info p + a {
-    font-size: 30px;
+    font-size: 18px;
   }
 }
 footer {
